@@ -1,0 +1,503 @@
+0
+4
+1
+2
+2
+5
+6
+4
+6
+5
+6
+9
+6
+8
+8
+7
+5
+9
+10
+5
+6
+9
+6
+7
+10
+8
+10
+8
+3
+8
+16
+19
+14
+10
+19
+14
+13
+18
+9
+10
+13
+19
+13
+15
+15
+7
+16
+13
+11
+7
+3
+106
+99
+2147483647
+2147483647
+101
+96
+92
+244
+109
+2147483647
+578
+104
+234
+125
+144
+441
+95
+298
+259
+94
+2147483647
+133
+239
+141
+156
+445
+154
+99
+244
+364
+218
+115
+221
+153
+249
+129
+96
+124
+136
+105
+118
+98
+166
+225
+129
+156
+154
+127
+128
+
+Trace of Dijkstra's Algorithm:
+Node 77 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 5 - Distance: 5
+Node 5 -> Node 48 - Distance: 11
+Node 48 -> Node 77 - Distance: 154
+Node 61 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 24 - Distance: 10
+Node 24 -> Node 52 - Distance: 99
+Node 52 -> Node 83 - Distance: 221
+Node 83 -> Node 68 - Distance: 298
+Node 68 -> Node 76 - Distance: 445
+Node 76 -> Node 61 - Distance: 578
+Node 63 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 57 - Distance: 92
+Node 57 -> Node 63 - Distance: 234
+Node 69 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 12 - Distance: 6
+Node 12 -> Node 23 - Distance: 7
+Node 23 -> Node 21 - Distance: 9
+Node 21 -> Node 95 - Distance: 129
+Node 95 -> Node 69 - Distance: 259
+Node 65 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 15 - Distance: 7
+Node 15 -> Node 33 - Distance: 10
+Node 33 -> Node 65 - Distance: 144
+Node 59 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 10 - Distance: 6
+Node 10 -> Node 37 - Distance: 18
+Node 37 -> Node 59 - Distance: 109
+Node 67 Trace:
+Node 0 -> Node 50 - Distance: 3
+Node 50 -> Node 67 - Distance: 95
+Node 57 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 57 - Distance: 92
+Node 75 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 8 - Distance: 6
+Node 8 -> Node 40 - Distance: 13
+Node 40 -> Node 75 - Distance: 156
+Node 55 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 15 - Distance: 7
+Node 15 -> Node 33 - Distance: 10
+Node 33 -> Node 55 - Distance: 101
+Node 73 Trace:
+Node 0 -> Node 50 - Distance: 3
+Node 50 -> Node 67 - Distance: 95
+Node 67 -> Node 73 - Distance: 239
+Node 51 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 17 - Distance: 9
+Node 17 -> Node 30 - Distance: 16
+Node 30 -> Node 51 - Distance: 106
+Node 72 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 5 - Distance: 5
+Node 5 -> Node 48 - Distance: 11
+Node 48 -> Node 72 - Distance: 133
+Node 66 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 17 - Distance: 9
+Node 17 -> Node 30 - Distance: 16
+Node 30 -> Node 62 - Distance: 104
+Node 62 -> Node 79 - Distance: 244
+Node 79 -> Node 80 - Distance: 364
+Node 80 -> Node 66 - Distance: 441
+Node 99 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 25 - Distance: 8
+Node 25 -> Node 99 - Distance: 128
+Node 76 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 24 - Distance: 10
+Node 24 -> Node 52 - Distance: 99
+Node 52 -> Node 83 - Distance: 221
+Node 83 -> Node 68 - Distance: 298
+Node 68 -> Node 76 - Distance: 445
+Node 97 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 8 - Distance: 6
+Node 8 -> Node 97 - Distance: 154
+Node 70 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 22 - Distance: 6
+Node 22 -> Node 70 - Distance: 94
+Node 96 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 8 - Distance: 6
+Node 8 -> Node 40 - Distance: 13
+Node 40 -> Node 96 - Distance: 156
+Node 64 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 8 - Distance: 6
+Node 8 -> Node 29 - Distance: 8
+Node 29 -> Node 64 - Distance: 125
+Node 95 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 12 - Distance: 6
+Node 12 -> Node 23 - Distance: 7
+Node 23 -> Node 21 - Distance: 9
+Node 21 -> Node 95 - Distance: 129
+Node 58 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 12 - Distance: 6
+Node 12 -> Node 34 - Distance: 19
+Node 34 -> Node 91 - Distance: 118
+Node 91 -> Node 58 - Distance: 244
+Node 94 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 25 - Distance: 8
+Node 25 -> Node 99 - Distance: 128
+Node 99 -> Node 94 - Distance: 225
+Node 52 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 24 - Distance: 10
+Node 24 -> Node 52 - Distance: 99
+Node 93 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 46 - Distance: 16
+Node 46 -> Node 93 - Distance: 166
+Node 91 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 12 - Distance: 6
+Node 12 -> Node 34 - Distance: 19
+Node 34 -> Node 91 - Distance: 118
+Node 90 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 90 - Distance: 105
+Node 89 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 22 - Distance: 6
+Node 22 -> Node 89 - Distance: 136
+Node 88 Trace:
+Node 0 -> Node 14 - Distance: 8
+Node 14 -> Node 88 - Distance: 124
+Node 87 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 10 - Distance: 6
+Node 10 -> Node 87 - Distance: 96
+Node 85 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 90 - Distance: 105
+Node 90 -> Node 85 - Distance: 249
+Node 98 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 15 - Distance: 7
+Node 15 -> Node 33 - Distance: 10
+Node 33 -> Node 98 - Distance: 127
+Node 84 Trace:
+Node 0 -> Node 9 - Distance: 5
+Node 9 -> Node 42 - Distance: 13
+Node 42 -> Node 84 - Distance: 153
+Node 92 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 8 - Distance: 6
+Node 8 -> Node 40 - Distance: 13
+Node 40 -> Node 92 - Distance: 98
+Node 83 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 24 - Distance: 10
+Node 24 -> Node 52 - Distance: 99
+Node 52 -> Node 83 - Distance: 221
+Node 86 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 86 - Distance: 129
+Node 82 Trace:
+Node 0 -> Node 11 - Distance: 9
+Node 11 -> Node 39 - Distance: 10
+Node 39 -> Node 82 - Distance: 115
+Node 28 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 27 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 27 - Distance: 8
+Node 26 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 26 - Distance: 10
+Node 25 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 25 - Distance: 8
+Node 24 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 24 - Distance: 10
+Node 23 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 12 - Distance: 6
+Node 12 -> Node 23 - Distance: 7
+Node 22 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 22 - Distance: 6
+Node 81 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 46 - Distance: 16
+Node 46 -> Node 74 - Distance: 141
+Node 74 -> Node 81 - Distance: 218
+Node 21 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 12 - Distance: 6
+Node 12 -> Node 23 - Distance: 7
+Node 23 -> Node 21 - Distance: 9
+Node 80 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 17 - Distance: 9
+Node 17 -> Node 30 - Distance: 16
+Node 30 -> Node 62 - Distance: 104
+Node 62 -> Node 79 - Distance: 244
+Node 79 -> Node 80 - Distance: 364
+Node 20 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 5 - Distance: 5
+Node 5 -> Node 20 - Distance: 6
+Node 79 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 17 - Distance: 9
+Node 17 -> Node 30 - Distance: 16
+Node 30 -> Node 62 - Distance: 104
+Node 62 -> Node 79 - Distance: 244
+Node 19 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 19 - Distance: 5
+Node 78 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 49 - Distance: 7
+Node 49 -> Node 78 - Distance: 99
+Node 18 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 10 - Distance: 6
+Node 10 -> Node 18 - Distance: 10
+Node 17 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 17 - Distance: 9
+Node 16 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 16 - Distance: 5
+Node 15 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 15 - Distance: 7
+Node 74 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 46 - Distance: 16
+Node 46 -> Node 74 - Distance: 141
+Node 14 Trace:
+Node 0 -> Node 14 - Distance: 8
+Node 13 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 13 - Distance: 8
+Node 1 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 2 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 6 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 6 - Distance: 6
+Node 3 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 62 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 17 - Distance: 9
+Node 17 -> Node 30 - Distance: 16
+Node 30 -> Node 62 - Distance: 104
+Node 7 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 4 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 8 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 8 - Distance: 6
+Node 9 Trace:
+Node 0 -> Node 9 - Distance: 5
+Node 68 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 24 - Distance: 10
+Node 24 -> Node 52 - Distance: 99
+Node 52 -> Node 83 - Distance: 221
+Node 83 -> Node 68 - Distance: 298
+Node 5 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 5 - Distance: 5
+Node 10 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 10 - Distance: 6
+Node 11 Trace:
+Node 0 -> Node 11 - Distance: 9
+Node 12 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 12 - Distance: 6
+Node 29 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 8 - Distance: 6
+Node 8 -> Node 29 - Distance: 8
+Node 30 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 17 - Distance: 9
+Node 17 -> Node 30 - Distance: 16
+Node 44 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 5 - Distance: 5
+Node 5 -> Node 44 - Distance: 15
+Node 32 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 49 - Distance: 7
+Node 49 -> Node 32 - Distance: 14
+Node 41 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 27 - Distance: 8
+Node 27 -> Node 41 - Distance: 19
+Node 34 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 12 - Distance: 6
+Node 12 -> Node 34 - Distance: 19
+Node 38 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 45 - Distance: 7
+Node 45 -> Node 38 - Distance: 9
+Node 36 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 13 - Distance: 8
+Node 13 -> Node 36 - Distance: 13
+Node 35 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 13 - Distance: 8
+Node 13 -> Node 36 - Distance: 13
+Node 36 -> Node 35 - Distance: 14
+Node 40 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 8 - Distance: 6
+Node 8 -> Node 40 - Distance: 13
+Node 42 Trace:
+Node 0 -> Node 9 - Distance: 5
+Node 9 -> Node 42 - Distance: 13
+Node 46 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 46 - Distance: 16
+Node 48 Trace:
+Node 0 -> Node 4 - Distance: 2
+Node 4 -> Node 5 - Distance: 5
+Node 5 -> Node 48 - Distance: 11
+Node 45 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 45 - Distance: 7
+Node 39 Trace:
+Node 0 -> Node 11 - Distance: 9
+Node 11 -> Node 39 - Distance: 10
+Node 33 Trace:
+Node 0 -> Node 28 - Distance: 3
+Node 28 -> Node 15 - Distance: 7
+Node 15 -> Node 33 - Distance: 10
+Node 31 Trace:
+Node 0 -> Node 14 - Distance: 8
+Node 14 -> Node 31 - Distance: 19
+Node 37 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 10 - Distance: 6
+Node 10 -> Node 37 - Distance: 18
+Node 47 Trace:
+Node 0 -> Node 11 - Distance: 9
+Node 11 -> Node 39 - Distance: 10
+Node 39 -> Node 47 - Distance: 13
+Node 43 Trace:
+Node 0 -> Node 2 - Distance: 1
+Node 2 -> Node 43 - Distance: 15
+Node 49 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 7 - Distance: 4
+Node 7 -> Node 49 - Distance: 7
+Node 50 Trace:
+Node 0 -> Node 50 - Distance: 3
+Node 56 Trace:
+Node 0 -> Node 3 - Distance: 2
+Node 3 -> Node 1 - Distance: 4
+Node 1 -> Node 27 - Distance: 8
+Node 27 -> Node 56 - Distance: 96

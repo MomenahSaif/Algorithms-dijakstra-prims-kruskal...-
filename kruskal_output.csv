@@ -1,0 +1,979 @@
+Minimum Spanning Tree:
+Edge: 11 - 39 Weight: 1
+Edge: 8 - 3 Weight: 1
+Edge: 27 - 17 Weight: 1
+Edge: 28 - 50 Weight: 1
+Edge: 0 - 2 Weight: 1
+Edge: 4 - 3 Weight: 1
+Edge: 6 - 50 Weight: 1
+Edge: 13 - 22 Weight: 1
+Edge: 14 - 7 Weight: 1
+Edge: 31 - 9 Weight: 1
+Edge: 36 - 35 Weight: 1
+Edge: 16 - 10 Weight: 1
+Edge: 5 - 20 Weight: 1
+Edge: 12 - 23 Weight: 1
+Edge: 25 - 20 Weight: 1
+Edge: 7 - 16 Weight: 1
+Edge: 44 - 50 Weight: 1
+Edge: 27 - 15 Weight: 1
+Edge: 15 - 49 Weight: 1
+Edge: 7 - 19 Weight: 1
+Edge: 15 - 8 Weight: 2
+Edge: 3 - 7 Weight: 2
+Edge: 0 - 4 Weight: 2
+Edge: 3 - 1 Weight: 2
+Edge: 23 - 21 Weight: 2
+Edge: 11 - 49 Weight: 2
+Edge: 26 - 2 Weight: 2
+Edge: 45 - 38 Weight: 2
+Edge: 20 - 27 Weight: 2
+Edge: 44 - 23 Weight: 2
+Edge: 18 - 5 Weight: 2
+Edge: 40 - 50 Weight: 2
+Edge: 8 - 29 Weight: 2
+Edge: 24 - 21 Weight: 3
+Edge: 9 - 13 Weight: 3
+Edge: 21 - 26 Weight: 3
+Edge: 34 - 38 Weight: 3
+Edge: 5 - 22 Weight: 3
+Edge: 34 - 50 Weight: 3
+Edge: 39 - 47 Weight: 3
+Edge: 15 - 33 Weight: 3
+Edge: 48 - 50 Weight: 4
+Edge: 30 - 50 Weight: 4
+Edge: 35 - 3 Weight: 4
+Edge: 42 - 50 Weight: 5
+Edge: 38 - 32 Weight: 6
+Edge: 46 - 50 Weight: 6
+Edge: 37 - 0 Weight: 6
+Edge: 41 - 39 Weight: 7
+Edge: 43 - 41 Weight: 9
+Edge: 74 - 81 Weight: 77
+Edge: 88 - 0 Weight: 77
+Edge: 80 - 66 Weight: 77
+Edge: 83 - 68 Weight: 77
+Edge: 73 - 50 Weight: 84
+Edge: 40 - 92 Weight: 85
+Edge: 80 - 1 Weight: 88
+Edge: 53 - 82 Weight: 88
+Edge: 27 - 56 Weight: 88
+Edge: 22 - 70 Weight: 88
+Edge: 87 - 47 Weight: 88
+Edge: 30 - 62 Weight: 88
+Edge: 24 - 52 Weight: 89
+Edge: 28 - 57 Weight: 89
+Edge: 30 - 51 Weight: 90
+Edge: 64 - 96 Weight: 90
+Edge: 81 - 70 Weight: 91
+Edge: 33 - 55 Weight: 91
+Edge: 37 - 59 Weight: 91
+Edge: 58 - 44 Weight: 92
+Edge: 83 - 91 Weight: 92
+Edge: 49 - 78 Weight: 92
+Edge: 50 - 67 Weight: 92
+Edge: 86 - 39 Weight: 92
+Edge: 99 - 88 Weight: 94
+Edge: 68 - 80 Weight: 95
+Edge: 64 - 81 Weight: 96
+Edge: 69 - 95 Weight: 96
+Edge: 97 - 94 Weight: 97
+Edge: 99 - 94 Weight: 97
+Edge: 60 - 42 Weight: 99
+Edge: 63 - 15 Weight: 99
+Edge: 77 - 4 Weight: 100
+Edge: 84 - 93 Weight: 102
+Edge: 85 - 41 Weight: 102
+Edge: 28 - 90 Weight: 102
+Edge: 39 - 82 Weight: 105
+Edge: 76 - 23 Weight: 105
+Edge: 54 - 66 Weight: 111
+Edge: 72 - 14 Weight: 111
+Edge: 92 - 84 Weight: 111
+Edge: 33 - 98 Weight: 117
+Edge: 21 - 95 Weight: 120
+Edge: 79 - 80 Weight: 120
+Edge: 71 - 19 Weight: 122
+Edge: 57 - 75 Weight: 124
+Edge: 22 - 89 Weight: 130
+Edge: 65 - 91 Weight: 132
+Edge: 76 - 61 Weight: 133
+
+Trace of Kruskal's Algorithm:
+Edge: 2 - 30 Weight: 175 - Rejected
+Edge: 39 - 33 Weight: 175 - Rejected
+Edge: 52 - 94 Weight: 175 - Rejected
+Edge: 70 - 97 Weight: 175 - Rejected
+Edge: 23 - 12 Weight: 175 - Rejected
+Edge: 40 - 33 Weight: 175 - Rejected
+Edge: 35 - 9 Weight: 175 - Rejected
+Edge: 38 - 25 Weight: 160 - Rejected
+Edge: 38 - 21 Weight: 160 - Rejected
+Edge: 8 - 20 Weight: 160 - Rejected
+Edge: 78 - 15 Weight: 160 - Rejected
+Edge: 88 - 50 Weight: 160 - Rejected
+Edge: 12 - 2 Weight: 160 - Rejected
+Edge: 12 - 4 Weight: 160 - Rejected
+Edge: 3 - 42 Weight: 160 - Rejected
+Edge: 98 - 85 Weight: 160 - Rejected
+Edge: 4 - 42 Weight: 160 - Rejected
+Edge: 48 - 10 Weight: 160 - Rejected
+Edge: 58 - 45 Weight: 160 - Rejected
+Edge: 28 - 40 Weight: 160 - Rejected
+Edge: 98 - 35 Weight: 160 - Rejected
+Edge: 68 - 30 Weight: 160 - Rejected
+Edge: 49 - 18 Weight: 150 - Rejected
+Edge: 16 - 88 Weight: 150 - Rejected
+Edge: 90 - 17 Weight: 150 - Rejected
+Edge: 19 - 13 Weight: 150 - Rejected
+Edge: 74 - 12 Weight: 150 - Rejected
+Edge: 10 - 37 Weight: 150 - Rejected
+Edge: 66 - 33 Weight: 150 - Rejected
+Edge: 70 - 40 Weight: 150 - Rejected
+Edge: 74 - 12 Weight: 150 - Rejected
+Edge: 76 - 98 Weight: 150 - Rejected
+Edge: 5 - 11 Weight: 150 - Rejected
+Edge: 60 - 12 Weight: 150 - Rejected
+Edge: 39 - 8 Weight: 150 - Rejected
+Edge: 66 - 33 Weight: 150 - Rejected
+Edge: 2 - 8 Weight: 150 - Rejected
+Edge: 36 - 34 Weight: 150 - Rejected
+Edge: 2 - 8 Weight: 150 - Rejected
+Edge: 40 - 42 Weight: 150 - Rejected
+Edge: 16 - 39 Weight: 150 - Rejected
+Edge: 74 - 12 Weight: 150 - Rejected
+Edge: 70 - 47 Weight: 150 - Rejected
+Edge: 35 - 34 Weight: 150 - Rejected
+Edge: 76 - 2 Weight: 150 - Rejected
+Edge: 66 - 92 Weight: 150 - Rejected
+Edge: 15 - 39 Weight: 150 - Rejected
+Edge: 80 - 32 Weight: 150 - Rejected
+Edge: 3 - 6 Weight: 150 - Rejected
+Edge: 46 - 93 Weight: 150 - Rejected
+Edge: 6 - 29 Weight: 150 - Rejected
+Edge: 20 - 22 Weight: 150 - Rejected
+Edge: 50 - 27 Weight: 150 - Rejected
+Edge: 30 - 7 Weight: 150 - Rejected
+Edge: 8 - 97 Weight: 148 - Rejected
+Edge: 8 - 97 Weight: 148 - Rejected
+Edge: 8 - 97 Weight: 148 - Rejected
+Edge: 8 - 97 Weight: 148 - Rejected
+Edge: 68 - 76 Weight: 147 - Rejected
+Edge: 67 - 73 Weight: 147 - Rejected
+Edge: 68 - 76 Weight: 147 - Rejected
+Edge: 68 - 76 Weight: 147 - Rejected
+Edge: 61 - 96 Weight: 146 - Rejected
+Edge: 61 - 96 Weight: 146 - Rejected
+Edge: 61 - 96 Weight: 146 - Rejected
+Edge: 61 - 96 Weight: 146 - Rejected
+Edge: 31 - 10 Weight: 145 - Rejected
+Edge: 31 - 10 Weight: 145 - Rejected
+Edge: 31 - 10 Weight: 145 - Rejected
+Edge: 6 - 98 Weight: 145 - Rejected
+Edge: 31 - 10 Weight: 145 - Rejected
+Edge: 6 - 98 Weight: 145 - Rejected
+Edge: 70 - 5 Weight: 145 - Rejected
+Edge: 70 - 5 Weight: 145 - Rejected
+Edge: 76 - 35 Weight: 145 - Rejected
+Edge: 6 - 98 Weight: 145 - Rejected
+Edge: 70 - 5 Weight: 145 - Rejected
+Edge: 6 - 98 Weight: 145 - Rejected
+Edge: 69 - 39 Weight: 144 - Rejected
+Edge: 90 - 85 Weight: 144 - Rejected
+Edge: 90 - 85 Weight: 144 - Rejected
+Edge: 69 - 39 Weight: 144 - Rejected
+Edge: 67 - 73 Weight: 144 - Rejected
+Edge: 67 - 73 Weight: 144 - Rejected
+Edge: 69 - 39 Weight: 144 - Rejected
+Edge: 96 - 84 Weight: 144 - Rejected
+Edge: 90 - 85 Weight: 144 - Rejected
+Edge: 67 - 73 Weight: 144 - Rejected
+Edge: 67 - 73 Weight: 144 - Rejected
+Edge: 74 - 29 Weight: 144 - Rejected
+Edge: 28 - 89 Weight: 143 - Rejected
+Edge: 28 - 89 Weight: 143 - Rejected
+Edge: 48 - 77 Weight: 143 - Rejected
+Edge: 28 - 89 Weight: 143 - Rejected
+Edge: 40 - 96 Weight: 143 - Rejected
+Edge: 28 - 89 Weight: 143 - Rejected
+Edge: 40 - 75 Weight: 143 - Rejected
+Edge: 40 - 96 Weight: 143 - Rejected
+Edge: 55 - 63 Weight: 142 - Rejected
+Edge: 57 - 63 Weight: 142 - Rejected
+Edge: 55 - 63 Weight: 142 - Rejected
+Edge: 55 - 63 Weight: 142 - Rejected
+Edge: 1 - 40 Weight: 141 - Rejected
+Edge: 1 - 40 Weight: 141 - Rejected
+Edge: 1 - 40 Weight: 141 - Rejected
+Edge: 1 - 40 Weight: 141 - Rejected
+Edge: 8 - 3 Weight: 140 - Rejected
+Edge: 42 - 84 Weight: 140 - Rejected
+Edge: 62 - 79 Weight: 140 - Rejected
+Edge: 26 - 24 Weight: 140 - Rejected
+Edge: 6 - 3 Weight: 140 - Rejected
+Edge: 42 - 86 Weight: 140 - Rejected
+Edge: 42 - 86 Weight: 140 - Rejected
+Edge: 31 - 48 Weight: 140 - Rejected
+Edge: 42 - 86 Weight: 140 - Rejected
+Edge: 30 - 48 Weight: 140 - Rejected
+Edge: 11 - 13 Weight: 137 - Rejected
+Edge: 9 - 34 Weight: 137 - Rejected
+Edge: 9 - 34 Weight: 137 - Rejected
+Edge: 9 - 34 Weight: 137 - Rejected
+Edge: 17 - 35 Weight: 136 - Rejected
+Edge: 85 - 67 Weight: 136 - Rejected
+Edge: 85 - 67 Weight: 136 - Rejected
+Edge: 17 - 35 Weight: 136 - Rejected
+Edge: 17 - 35 Weight: 136 - Rejected
+Edge: 85 - 67 Weight: 136 - Rejected
+Edge: 17 - 35 Weight: 136 - Rejected
+Edge: 81 - 90 Weight: 136 - Rejected
+Edge: 2 - 8 Weight: 135 - Rejected
+Edge: 2 - 8 Weight: 135 - Rejected
+Edge: 13 - 10 Weight: 135 - Rejected
+Edge: 2 - 8 Weight: 135 - Rejected
+Edge: 33 - 65 Weight: 134 - Rejected
+Edge: 33 - 65 Weight: 134 - Rejected
+Edge: 37 - 86 Weight: 134 - Rejected
+Edge: 33 - 65 Weight: 134 - Rejected
+Edge: 76 - 61 Weight: 133 - Rejected
+Edge: 91 - 26 Weight: 133 - Rejected
+Edge: 12 - 18 Weight: 133 - Rejected
+Edge: 76 - 61 Weight: 133 - Rejected
+Edge: 12 - 31 Weight: 133 - Rejected
+Edge: 15 - 31 Weight: 133 - Rejected
+Edge: 91 - 26 Weight: 133 - Rejected
+Edge: 91 - 26 Weight: 133 - Rejected
+Edge: 91 - 26 Weight: 133 - Rejected
+Edge: 12 - 18 Weight: 133 - Rejected
+Edge: 76 - 61 Weight: 133 - Rejected
+Edge: 76 - 61 Weight: 133 - Accepted
+Edge: 65 - 91 Weight: 132 - Accepted
+Edge: 99 - 87 Weight: 132 - Rejected
+Edge: 62 - 92 Weight: 132 - Rejected
+Edge: 62 - 92 Weight: 132 - Rejected
+Edge: 19 - 38 Weight: 130 - Rejected
+Edge: 47 - 44 Weight: 130 - Rejected
+Edge: 46 - 44 Weight: 130 - Rejected
+Edge: 56 - 28 Weight: 130 - Rejected
+Edge: 82 - 99 Weight: 130 - Rejected
+Edge: 26 - 23 Weight: 130 - Rejected
+Edge: 35 - 37 Weight: 130 - Rejected
+Edge: 36 - 8 Weight: 130 - Rejected
+Edge: 43 - 7 Weight: 130 - Rejected
+Edge: 95 - 69 Weight: 130 - Rejected
+Edge: 95 - 69 Weight: 130 - Rejected
+Edge: 35 - 37 Weight: 130 - Rejected
+Edge: 66 - 13 Weight: 130 - Rejected
+Edge: 96 - 18 Weight: 130 - Rejected
+Edge: 3 - 17 Weight: 130 - Rejected
+Edge: 76 - 48 Weight: 130 - Rejected
+Edge: 10 - 28 Weight: 130 - Rejected
+Edge: 35 - 37 Weight: 130 - Rejected
+Edge: 86 - 83 Weight: 130 - Rejected
+Edge: 16 - 38 Weight: 130 - Rejected
+Edge: 95 - 69 Weight: 130 - Rejected
+Edge: 22 - 89 Weight: 130 - Accepted
+Edge: 35 - 37 Weight: 130 - Rejected
+Edge: 86 - 33 Weight: 130 - Rejected
+Edge: 20 - 38 Weight: 130 - Rejected
+Edge: 46 - 43 Weight: 130 - Rejected
+Edge: 95 - 69 Weight: 130 - Rejected
+Edge: 42 - 20 Weight: 127 - Rejected
+Edge: 54 - 11 Weight: 127 - Rejected
+Edge: 4 - 36 Weight: 127 - Rejected
+Edge: 14 - 21 Weight: 127 - Rejected
+Edge: 74 - 31 Weight: 127 - Rejected
+Edge: 34 - 41 Weight: 127 - Rejected
+Edge: 84 - 16 Weight: 127 - Rejected
+Edge: 16 - 1 Weight: 127 - Rejected
+Edge: 44 - 26 Weight: 127 - Rejected
+Edge: 4 - 86 Weight: 127 - Rejected
+Edge: 18 - 5 Weight: 127 - Rejected
+Edge: 64 - 46 Weight: 127 - Rejected
+Edge: 8 - 41 Weight: 127 - Rejected
+Edge: 94 - 51 Weight: 127 - Rejected
+Edge: 7 - 41 Weight: 127 - Rejected
+Edge: 96 - 58 Weight: 126 - Rejected
+Edge: 96 - 58 Weight: 126 - Rejected
+Edge: 96 - 58 Weight: 126 - Rejected
+Edge: 91 - 58 Weight: 126 - Rejected
+Edge: 55 - 23 Weight: 125 - Rejected
+Edge: 46 - 74 Weight: 125 - Rejected
+Edge: 46 - 74 Weight: 125 - Rejected
+Edge: 46 - 74 Weight: 125 - Rejected
+Edge: 59 - 15 Weight: 124 - Rejected
+Edge: 57 - 7 Weight: 124 - Rejected
+Edge: 59 - 15 Weight: 124 - Rejected
+Edge: 59 - 15 Weight: 124 - Rejected
+Edge: 57 - 75 Weight: 124 - Rejected
+Edge: 57 - 75 Weight: 124 - Accepted
+Edge: 72 - 46 Weight: 124 - Rejected
+Edge: 59 - 34 Weight: 124 - Rejected
+Edge: 51 - 32 Weight: 123 - Rejected
+Edge: 19 - 51 Weight: 123 - Rejected
+Edge: 51 - 32 Weight: 123 - Rejected
+Edge: 18 - 49 Weight: 123 - Rejected
+Edge: 18 - 49 Weight: 123 - Rejected
+Edge: 51 - 32 Weight: 123 - Rejected
+Edge: 51 - 32 Weight: 123 - Rejected
+Edge: 18 - 22 Weight: 123 - Rejected
+Edge: 71 - 19 Weight: 122 - Accepted
+Edge: 25 - 43 Weight: 122 - Rejected
+Edge: 25 - 43 Weight: 122 - Rejected
+Edge: 48 - 72 Weight: 122 - Rejected
+Edge: 52 - 83 Weight: 122 - Rejected
+Edge: 47 - 7 Weight: 122 - Rejected
+Edge: 44 - 98 Weight: 122 - Rejected
+Edge: 48 - 72 Weight: 122 - Rejected
+Edge: 44 - 98 Weight: 122 - Rejected
+Edge: 48 - 72 Weight: 122 - Rejected
+Edge: 25 - 43 Weight: 122 - Rejected
+Edge: 25 - 43 Weight: 122 - Rejected
+Edge: 79 - 80 Weight: 120 - Rejected
+Edge: 25 - 99 Weight: 120 - Rejected
+Edge: 30 - 23 Weight: 120 - Rejected
+Edge: 21 - 95 Weight: 120 - Rejected
+Edge: 44 - 32 Weight: 120 - Rejected
+Edge: 50 - 23 Weight: 120 - Rejected
+Edge: 26 - 49 Weight: 120 - Rejected
+Edge: 43 - 32 Weight: 120 - Rejected
+Edge: 79 - 80 Weight: 120 - Rejected
+Edge: 79 - 80 Weight: 120 - Rejected
+Edge: 50 - 23 Weight: 120 - Rejected
+Edge: 79 - 80 Weight: 120 - Accepted
+Edge: 50 - 23 Weight: 120 - Rejected
+Edge: 21 - 95 Weight: 120 - Rejected
+Edge: 27 - 11 Weight: 120 - Rejected
+Edge: 27 - 49 Weight: 120 - Rejected
+Edge: 58 - 95 Weight: 120 - Rejected
+Edge: 56 - 78 Weight: 120 - Rejected
+Edge: 50 - 23 Weight: 120 - Rejected
+Edge: 21 - 95 Weight: 120 - Accepted
+Edge: 29 - 64 Weight: 117 - Rejected
+Edge: 33 - 98 Weight: 117 - Accepted
+Edge: 29 - 64 Weight: 117 - Rejected
+Edge: 29 - 38 Weight: 117 - Rejected
+Edge: 11 - 28 Weight: 116 - Rejected
+Edge: 11 - 28 Weight: 116 - Rejected
+Edge: 11 - 28 Weight: 116 - Rejected
+Edge: 14 - 88 Weight: 116 - Rejected
+Edge: 42 - 45 Weight: 112 - Rejected
+Edge: 43 - 45 Weight: 112 - Rejected
+Edge: 94 - 1 Weight: 112 - Rejected
+Edge: 0 - 5 Weight: 112 - Rejected
+Edge: 38 - 1 Weight: 112 - Rejected
+Edge: 80 - 82 Weight: 112 - Rejected
+Edge: 38 - 1 Weight: 112 - Rejected
+Edge: 38 - 1 Weight: 112 - Rejected
+Edge: 38 - 1 Weight: 112 - Rejected
+Edge: 18 - 26 Weight: 112 - Rejected
+Edge: 45 - 21 Weight: 111 - Rejected
+Edge: 52 - 44 Weight: 111 - Rejected
+Edge: 92 - 84 Weight: 111 - Accepted
+Edge: 82 - 49 Weight: 111 - Rejected
+Edge: 22 - 39 Weight: 111 - Rejected
+Edge: 92 - 34 Weight: 111 - Rejected
+Edge: 62 - 29 Weight: 111 - Rejected
+Edge: 72 - 14 Weight: 111 - Accepted
+Edge: 2 - 19 Weight: 111 - Rejected
+Edge: 34 - 22 Weight: 111 - Rejected
+Edge: 42 - 9 Weight: 111 - Rejected
+Edge: 54 - 28 Weight: 111 - Rejected
+Edge: 45 - 21 Weight: 111 - Rejected
+Edge: 0 - 43 Weight: 111 - Rejected
+Edge: 49 - 43 Weight: 111 - Rejected
+Edge: 54 - 66 Weight: 111 - Accepted
+Edge: 32 - 24 Weight: 111 - Rejected
+Edge: 36 - 87 Weight: 105 - Rejected
+Edge: 36 - 87 Weight: 105 - Rejected
+Edge: 36 - 47 Weight: 105 - Rejected
+Edge: 76 - 23 Weight: 105 - Rejected
+Edge: 76 - 23 Weight: 105 - Accepted
+Edge: 78 - 24 Weight: 105 - Rejected
+Edge: 39 - 82 Weight: 105 - Accepted
+Edge: 23 - 37 Weight: 102 - Rejected
+Edge: 28 - 90 Weight: 102 - Accepted
+Edge: 7 - 16 Weight: 102 - Rejected
+Edge: 24 - 37 Weight: 102 - Rejected
+Edge: 84 - 93 Weight: 102 - Rejected
+Edge: 84 - 93 Weight: 102 - Rejected
+Edge: 85 - 41 Weight: 102 - Accepted
+Edge: 84 - 93 Weight: 102 - Accepted
+Edge: 88 - 99 Weight: 101 - Rejected
+Edge: 77 - 4 Weight: 100 - Rejected
+Edge: 14 - 20 Weight: 100 - Rejected
+Edge: 77 - 4 Weight: 100 - Rejected
+Edge: 77 - 4 Weight: 100 - Rejected
+Edge: 24 - 18 Weight: 100 - Rejected
+Edge: 77 - 4 Weight: 100 - Accepted
+Edge: 14 - 20 Weight: 100 - Rejected
+Edge: 14 - 20 Weight: 100 - Rejected
+Edge: 11 - 15 Weight: 99 - Rejected
+Edge: 63 - 15 Weight: 99 - Accepted
+Edge: 32 - 3 Weight: 99 - Rejected
+Edge: 32 - 3 Weight: 99 - Rejected
+Edge: 32 - 3 Weight: 99 - Rejected
+Edge: 27 - 36 Weight: 99 - Rejected
+Edge: 60 - 42 Weight: 99 - Rejected
+Edge: 32 - 3 Weight: 99 - Rejected
+Edge: 60 - 25 Weight: 99 - Rejected
+Edge: 34 - 91 Weight: 99 - Rejected
+Edge: 28 - 36 Weight: 99 - Rejected
+Edge: 60 - 42 Weight: 99 - Accepted
+Edge: 23 - 17 Weight: 98 - Rejected
+Edge: 99 - 94 Weight: 97 - Accepted
+Edge: 97 - 94 Weight: 97 - Rejected
+Edge: 97 - 94 Weight: 97 - Rejected
+Edge: 97 - 94 Weight: 97 - Accepted
+Edge: 64 - 81 Weight: 96 - Rejected
+Edge: 64 - 81 Weight: 96 - Rejected
+Edge: 69 - 95 Weight: 96 - Accepted
+Edge: 64 - 81 Weight: 96 - Accepted
+Edge: 13 - 14 Weight: 95 - Rejected
+Edge: 22 - 25 Weight: 95 - Rejected
+Edge: 13 - 14 Weight: 95 - Rejected
+Edge: 4 - 4 Weight: 95 - Rejected
+Edge: 13 - 14 Weight: 95 - Rejected
+Edge: 68 - 80 Weight: 95 - Accepted
+Edge: 13 - 14 Weight: 95 - Rejected
+Edge: 0 - 2 Weight: 95 - Rejected
+Edge: 35 - 47 Weight: 95 - Rejected
+Edge: 34 - 47 Weight: 95 - Rejected
+Edge: 87 - 55 Weight: 94 - Rejected
+Edge: 99 - 88 Weight: 94 - Rejected
+Edge: 92 - 74 Weight: 94 - Rejected
+Edge: 99 - 88 Weight: 94 - Accepted
+Edge: 58 - 44 Weight: 92 - Rejected
+Edge: 86 - 39 Weight: 92 - Accepted
+Edge: 50 - 67 Weight: 92 - Accepted
+Edge: 49 - 78 Weight: 92 - Rejected
+Edge: 83 - 91 Weight: 92 - Rejected
+Edge: 83 - 91 Weight: 92 - Rejected
+Edge: 49 - 78 Weight: 92 - Rejected
+Edge: 49 - 78 Weight: 92 - Accepted
+Edge: 58 - 44 Weight: 92 - Rejected
+Edge: 83 - 91 Weight: 92 - Accepted
+Edge: 58 - 44 Weight: 92 - Rejected
+Edge: 58 - 44 Weight: 92 - Accepted
+Edge: 81 - 70 Weight: 91 - Rejected
+Edge: 37 - 59 Weight: 91 - Accepted
+Edge: 81 - 70 Weight: 91 - Rejected
+Edge: 33 - 55 Weight: 91 - Rejected
+Edge: 81 - 70 Weight: 91 - Rejected
+Edge: 33 - 55 Weight: 91 - Accepted
+Edge: 81 - 70 Weight: 91 - Accepted
+Edge: 46 - 19 Weight: 90 - Rejected
+Edge: 24 - 6 Weight: 90 - Rejected
+Edge: 30 - 51 Weight: 90 - Rejected
+Edge: 11 - 40 Weight: 90 - Rejected
+Edge: 64 - 96 Weight: 90 - Accepted
+Edge: 31 - 10 Weight: 90 - Rejected
+Edge: 30 - 51 Weight: 90 - Rejected
+Edge: 12 - 40 Weight: 90 - Rejected
+Edge: 10 - 87 Weight: 90 - Rejected
+Edge: 30 - 51 Weight: 90 - Rejected
+Edge: 48 - 31 Weight: 90 - Rejected
+Edge: 20 - 0 Weight: 90 - Rejected
+Edge: 30 - 51 Weight: 90 - Accepted
+Edge: 24 - 52 Weight: 89 - Rejected
+Edge: 24 - 52 Weight: 89 - Rejected
+Edge: 28 - 57 Weight: 89 - Accepted
+Edge: 24 - 52 Weight: 89 - Accepted
+Edge: 11 - 70 Weight: 88 - Rejected
+Edge: 80 - 1 Weight: 88 - Rejected
+Edge: 53 - 82 Weight: 88 - Rejected
+Edge: 27 - 56 Weight: 88 - Rejected
+Edge: 80 - 42 Weight: 88 - Rejected
+Edge: 30 - 62 Weight: 88 - Accepted
+Edge: 27 - 56 Weight: 88 - Rejected
+Edge: 87 - 47 Weight: 88 - Accepted
+Edge: 53 - 82 Weight: 88 - Rejected
+Edge: 11 - 70 Weight: 88 - Rejected
+Edge: 22 - 70 Weight: 88 - Accepted
+Edge: 27 - 56 Weight: 88 - Accepted
+Edge: 53 - 82 Weight: 88 - Rejected
+Edge: 53 - 82 Weight: 88 - Accepted
+Edge: 80 - 1 Weight: 88 - Accepted
+Edge: 26 - 16 Weight: 87 - Rejected
+Edge: 26 - 16 Weight: 87 - Rejected
+Edge: 26 - 16 Weight: 87 - Rejected
+Edge: 26 - 16 Weight: 87 - Rejected
+Edge: 40 - 92 Weight: 85 - Accepted
+Edge: 31 - 35 Weight: 85 - Rejected
+Edge: 32 - 35 Weight: 85 - Rejected
+Edge: 15 - 14 Weight: 85 - Rejected
+Edge: 73 - 50 Weight: 84 - Accepted
+Edge: 83 - 68 Weight: 77 - Accepted
+Edge: 80 - 66 Weight: 77 - Rejected
+Edge: 80 - 66 Weight: 77 - Accepted
+Edge: 39 - 46 Weight: 77 - Rejected
+Edge: 45 - 33 Weight: 77 - Rejected
+Edge: 88 - 0 Weight: 77 - Accepted
+Edge: 74 - 81 Weight: 77 - Accepted
+Edge: 38 - 46 Weight: 77 - Rejected
+Edge: 47 - 6 Weight: 77 - Rejected
+Edge: 14 - 27 Weight: 77 - Rejected
+Edge: 46 - 20 Weight: 19 - Rejected
+Edge: 3 - 49 Weight: 19 - Rejected
+Edge: 38 - 50 Weight: 19 - Rejected
+Edge: 26 - 50 Weight: 19 - Rejected
+Edge: 4 - 50 Weight: 19 - Rejected
+Edge: 43 - 41 Weight: 19 - Rejected
+Edge: 27 - 15 Weight: 19 - Rejected
+Edge: 25 - 18 Weight: 18 - Rejected
+Edge: 20 - 50 Weight: 18 - Rejected
+Edge: 10 - 50 Weight: 18 - Rejected
+Edge: 32 - 50 Weight: 18 - Rejected
+Edge: 9 - 42 Weight: 18 - Rejected
+Edge: 1 - 49 Weight: 18 - Rejected
+Edge: 41 - 44 Weight: 18 - Rejected
+Edge: 19 - 49 Weight: 18 - Rejected
+Edge: 32 - 41 Weight: 18 - Rejected
+Edge: 16 - 50 Weight: 17 - Rejected
+Edge: 40 - 29 Weight: 17 - Rejected
+Edge: 17 - 30 Weight: 17 - Rejected
+Edge: 9 - 49 Weight: 17 - Rejected
+Edge: 36 - 50 Weight: 17 - Rejected
+Edge: 49 - 32 Weight: 17 - Rejected
+Edge: 33 - 6 Weight: 17 - Rejected
+Edge: 13 - 49 Weight: 16 - Rejected
+Edge: 21 - 24 Weight: 16 - Rejected
+Edge: 24 - 50 Weight: 16 - Rejected
+Edge: 38 - 32 Weight: 16 - Rejected
+Edge: 5 - 48 Weight: 16 - Rejected
+Edge: 37 - 0 Weight: 16 - Rejected
+Edge: 46 - 50 Weight: 16 - Rejected
+Edge: 2 - 50 Weight: 16 - Rejected
+Edge: 5 - 49 Weight: 15 - Rejected
+Edge: 13 - 36 Weight: 15 - Rejected
+Edge: 47 - 35 Weight: 15 - Rejected
+Edge: 42 - 50 Weight: 15 - Rejected
+Edge: 29 - 12 Weight: 15 - Rejected
+Edge: 14 - 50 Weight: 15 - Rejected
+Edge: 42 - 26 Weight: 15 - Rejected
+Edge: 38 - 48 Weight: 14 - Rejected
+Edge: 8 - 50 Weight: 14 - Rejected
+Edge: 37 - 45 Weight: 14 - Rejected
+Edge: 17 - 49 Weight: 14 - Rejected
+Edge: 13 - 49 Weight: 14 - Rejected
+Edge: 20 - 22 Weight: 14 - Rejected
+Edge: 44 - 50 Weight: 14 - Rejected
+Edge: 22 - 50 Weight: 14 - Rejected
+Edge: 36 - 50 Weight: 14 - Rejected
+Edge: 28 - 50 Weight: 14 - Rejected
+Edge: 30 - 50 Weight: 14 - Rejected
+Edge: 20 - 50 Weight: 14 - Rejected
+Edge: 12 - 50 Weight: 14 - Rejected
+Edge: 34 - 1 Weight: 14 - Rejected
+Edge: 48 - 30 Weight: 14 - Rejected
+Edge: 48 - 50 Weight: 14 - Rejected
+Edge: 4 - 46 Weight: 14 - Rejected
+Edge: 30 - 27 Weight: 14 - Rejected
+Edge: 48 - 17 Weight: 14 - Rejected
+Edge: 37 - 6 Weight: 14 - Rejected
+Edge: 19 - 27 Weight: 14 - Rejected
+Edge: 18 - 23 Weight: 14 - Rejected
+Edge: 41 - 18 Weight: 14 - Rejected
+Edge: 42 - 35 Weight: 14 - Rejected
+Edge: 6 - 19 Weight: 14 - Rejected
+Edge: 48 - 15 Weight: 14 - Rejected
+Edge: 35 - 3 Weight: 14 - Rejected
+Edge: 48 - 38 Weight: 14 - Rejected
+Edge: 2 - 43 Weight: 14 - Rejected
+Edge: 18 - 32 Weight: 14 - Rejected
+Edge: 30 - 44 Weight: 14 - Rejected
+Edge: 38 - 31 Weight: 14 - Rejected
+Edge: 46 - 39 Weight: 14 - Rejected
+Edge: 34 - 50 Weight: 13 - Rejected
+Edge: 7 - 45 Weight: 13 - Rejected
+Edge: 14 - 50 Weight: 13 - Rejected
+Edge: 41 - 34 Weight: 13 - Rejected
+Edge: 6 - 50 Weight: 13 - Rejected
+Edge: 37 - 30 Weight: 13 - Rejected
+Edge: 42 - 39 Weight: 13 - Rejected
+Edge: 27 - 26 Weight: 13 - Rejected
+Edge: 15 - 22 Weight: 13 - Rejected
+Edge: 7 - 49 Weight: 13 - Rejected
+Edge: 28 - 10 Weight: 13 - Rejected
+Edge: 3 - 18 Weight: 13 - Rejected
+Edge: 34 - 38 Weight: 13 - Rejected
+Edge: 12 - 34 Weight: 13 - Rejected
+Edge: 47 - 14 Weight: 13 - Rejected
+Edge: 45 - 33 Weight: 13 - Rejected
+Edge: 45 - 38 Weight: 13 - Rejected
+Edge: 36 - 3 Weight: 13 - Rejected
+Edge: 7 - 49 Weight: 13 - Rejected
+Edge: 30 - 44 Weight: 13 - Rejected
+Edge: 0 - 50 Weight: 13 - Rejected
+Edge: 39 - 47 Weight: 13 - Rejected
+Edge: 15 - 49 Weight: 13 - Rejected
+Edge: 40 - 15 Weight: 13 - Rejected
+Edge: 46 - 50 Weight: 13 - Rejected
+Edge: 6 - 20 Weight: 13 - Rejected
+Edge: 11 - 46 Weight: 13 - Rejected
+Edge: 15 - 33 Weight: 13 - Rejected
+Edge: 38 - 50 Weight: 13 - Rejected
+Edge: 49 - 42 Weight: 13 - Rejected
+Edge: 44 - 27 Weight: 13 - Rejected
+Edge: 30 - 50 Weight: 13 - Rejected
+Edge: 22 - 50 Weight: 13 - Rejected
+Edge: 18 - 50 Weight: 13 - Rejected
+Edge: 11 - 49 Weight: 12 - Rejected
+Edge: 45 - 30 Weight: 12 - Rejected
+Edge: 47 - 45 Weight: 12 - Rejected
+Edge: 10 - 37 Weight: 12 - Rejected
+Edge: 45 - 38 Weight: 12 - Rejected
+Edge: 43 - 36 Weight: 12 - Rejected
+Edge: 26 - 13 Weight: 12 - Rejected
+Edge: 9 - 23 Weight: 12 - Rejected
+Edge: 40 - 42 Weight: 12 - Rejected
+Edge: 12 - 50 Weight: 12 - Rejected
+Edge: 44 - 23 Weight: 12 - Rejected
+Edge: 14 - 47 Weight: 12 - Rejected
+Edge: 40 - 50 Weight: 12 - Rejected
+Edge: 5 - 49 Weight: 12 - Rejected
+Edge: 4 - 50 Weight: 12 - Rejected
+Edge: 23 - 21 Weight: 12 - Rejected
+Edge: 28 - 50 Weight: 11 - Rejected
+Edge: 47 - 30 Weight: 11 - Rejected
+Edge: 15 - 49 Weight: 11 - Rejected
+Edge: 44 - 50 Weight: 11 - Rejected
+Edge: 6 - 50 Weight: 11 - Rejected
+Edge: 36 - 35 Weight: 11 - Rejected
+Edge: 31 - 9 Weight: 11 - Rejected
+Edge: 11 - 39 Weight: 11 - Rejected
+Edge: 16 - 50 Weight: 11 - Rejected
+Edge: 24 - 50 Weight: 11 - Rejected
+Edge: 32 - 50 Weight: 11 - Rejected
+Edge: 40 - 50 Weight: 11 - Rejected
+Edge: 0 - 17 Weight: 11 - Rejected
+Edge: 9 - 49 Weight: 11 - Rejected
+Edge: 17 - 49 Weight: 11 - Rejected
+Edge: 12 - 21 Weight: 11 - Rejected
+Edge: 27 - 41 Weight: 11 - Rejected
+Edge: 8 - 50 Weight: 11 - Rejected
+Edge: 3 - 17 Weight: 11 - Rejected
+Edge: 36 - 29 Weight: 11 - Rejected
+Edge: 40 - 33 Weight: 11 - Rejected
+Edge: 43 - 24 Weight: 11 - Rejected
+Edge: 39 - 12 Weight: 11 - Rejected
+Edge: 35 - 0 Weight: 11 - Rejected
+Edge: 44 - 37 Weight: 11 - Rejected
+Edge: 8 - 45 Weight: 11 - Rejected
+Edge: 48 - 41 Weight: 11 - Rejected
+Edge: 24 - 25 Weight: 11 - Rejected
+Edge: 30 - 7 Weight: 11 - Rejected
+Edge: 14 - 31 Weight: 11 - Rejected
+Edge: 44 - 36 Weight: 11 - Rejected
+Edge: 48 - 50 Weight: 11 - Rejected
+Edge: 46 - 13 Weight: 11 - Rejected
+Edge: 38 - 9 Weight: 10 - Rejected
+Edge: 39 - 32 Weight: 10 - Rejected
+Edge: 49 - 35 Weight: 10 - Rejected
+Edge: 33 - 48 Weight: 10 - Rejected
+Edge: 35 - 28 Weight: 10 - Rejected
+Edge: 18 - 25 Weight: 10 - Rejected
+Edge: 21 - 35 Weight: 10 - Rejected
+Edge: 21 - 24 Weight: 10 - Rejected
+Edge: 43 - 36 Weight: 10 - Rejected
+Edge: 9 - 20 Weight: 10 - Rejected
+Edge: 35 - 49 Weight: 10 - Rejected
+Edge: 19 - 49 Weight: 10 - Rejected
+Edge: 11 - 49 Weight: 10 - Rejected
+Edge: 32 - 4 Weight: 10 - Rejected
+Edge: 2 - 49 Weight: 10 - Rejected
+Edge: 49 - 16 Weight: 10 - Rejected
+Edge: 47 - 40 Weight: 10 - Rejected
+Edge: 42 - 50 Weight: 10 - Rejected
+Edge: 5 - 44 Weight: 10 - Rejected
+Edge: 34 - 50 Weight: 10 - Rejected
+Edge: 26 - 50 Weight: 10 - Rejected
+Edge: 46 - 33 Weight: 10 - Rejected
+Edge: 18 - 50 Weight: 10 - Rejected
+Edge: 10 - 50 Weight: 10 - Rejected
+Edge: 42 - 21 Weight: 10 - Rejected
+Edge: 0 - 3 Weight: 9 - Rejected
+Edge: 24 - 5 Weight: 9 - Rejected
+Edge: 0 - 3 Weight: 9 - Rejected
+Edge: 3 - 4 Weight: 9 - Rejected
+Edge: 3 - 49 Weight: 9 - Rejected
+Edge: 0 - 11 Weight: 9 - Rejected
+Edge: 27 - 15 Weight: 9 - Rejected
+Edge: 2 - 11 Weight: 9 - Rejected
+Edge: 3 - 4 Weight: 9 - Rejected
+Edge: 26 - 50 Weight: 9 - Rejected
+Edge: 38 - 50 Weight: 9 - Rejected
+Edge: 26 - 17 Weight: 9 - Rejected
+Edge: 39 - 42 Weight: 9 - Rejected
+Edge: 6 - 43 Weight: 9 - Rejected
+Edge: 17 - 4 Weight: 9 - Rejected
+Edge: 3 - 4 Weight: 9 - Rejected
+Edge: 22 - 19 Weight: 9 - Rejected
+Edge: 4 - 50 Weight: 9 - Rejected
+Edge: 36 - 48 Weight: 9 - Rejected
+Edge: 16 - 23 Weight: 9 - Rejected
+Edge: 0 - 50 Weight: 9 - Rejected
+Edge: 1 - 49 Weight: 9 - Rejected
+Edge: 12 - 10 Weight: 9 - Rejected
+Edge: 13 - 8 Weight: 9 - Rejected
+Edge: 41 - 47 Weight: 9 - Rejected
+Edge: 43 - 41 Weight: 9 - Accepted
+Edge: 13 - 16 Weight: 9 - Rejected
+Edge: 15 - 29 Weight: 9 - Rejected
+Edge: 46 - 20 Weight: 9 - Rejected
+Edge: 26 - 18 Weight: 9 - Rejected
+Edge: 20 - 49 Weight: 9 - Rejected
+Edge: 0 - 3 Weight: 9 - Rejected
+Edge: 47 - 41 Weight: 9 - Rejected
+Edge: 41 - 44 Weight: 8 - Rejected
+Edge: 9 - 42 Weight: 8 - Rejected
+Edge: 7 - 2 Weight: 8 - Rejected
+Edge: 25 - 18 Weight: 8 - Rejected
+Edge: 1 - 2 Weight: 8 - Rejected
+Edge: 10 - 50 Weight: 8 - Rejected
+Edge: 1 - 2 Weight: 8 - Rejected
+Edge: 32 - 41 Weight: 8 - Rejected
+Edge: 4 - 0 Weight: 8 - Rejected
+Edge: 10 - 26 Weight: 8 - Rejected
+Edge: 7 - 2 Weight: 8 - Rejected
+Edge: 27 - 17 Weight: 8 - Rejected
+Edge: 6 - 15 Weight: 8 - Rejected
+Edge: 12 - 6 Weight: 8 - Rejected
+Edge: 3 - 23 Weight: 8 - Rejected
+Edge: 6 - 17 Weight: 8 - Rejected
+Edge: 10 - 13 Weight: 8 - Rejected
+Edge: 24 - 18 Weight: 8 - Rejected
+Edge: 25 - 20 Weight: 8 - Rejected
+Edge: 29 - 6 Weight: 8 - Rejected
+Edge: 4 - 0 Weight: 8 - Rejected
+Edge: 16 - 28 Weight: 8 - Rejected
+Edge: 24 - 38 Weight: 8 - Rejected
+Edge: 0 - 14 Weight: 8 - Rejected
+Edge: 19 - 49 Weight: 8 - Rejected
+Edge: 49 - 27 Weight: 8 - Rejected
+Edge: 4 - 0 Weight: 8 - Rejected
+Edge: 1 - 2 Weight: 8 - Rejected
+Edge: 1 - 49 Weight: 8 - Rejected
+Edge: 32 - 50 Weight: 8 - Rejected
+Edge: 3 - 24 Weight: 8 - Rejected
+Edge: 7 - 2 Weight: 8 - Rejected
+Edge: 20 - 50 Weight: 8 - Rejected
+Edge: 8 - 40 Weight: 7 - Rejected
+Edge: 14 - 20 Weight: 7 - Rejected
+Edge: 1 - 5 Weight: 7 - Rejected
+Edge: 49 - 32 Weight: 7 - Rejected
+Edge: 0 - 1 Weight: 7 - Rejected
+Edge: 9 - 49 Weight: 7 - Rejected
+Edge: 19 - 26 Weight: 7 - Rejected
+Edge: 0 - 1 Weight: 7 - Rejected
+Edge: 19 - 29 Weight: 7 - Rejected
+Edge: 8 - 17 Weight: 7 - Rejected
+Edge: 17 - 48 Weight: 7 - Rejected
+Edge: 9 - 14 Weight: 7 - Rejected
+Edge: 46 - 44 Weight: 7 - Rejected
+Edge: 16 - 50 Weight: 7 - Rejected
+Edge: 17 - 4 Weight: 7 - Rejected
+Edge: 12 - 26 Weight: 7 - Rejected
+Edge: 18 - 1 Weight: 7 - Rejected
+Edge: 44 - 46 Weight: 7 - Rejected
+Edge: 24 - 16 Weight: 7 - Rejected
+Edge: 3 - 49 Weight: 7 - Rejected
+Edge: 2 - 50 Weight: 7 - Rejected
+Edge: 20 - 7 Weight: 7 - Rejected
+Edge: 2 - 25 Weight: 7 - Rejected
+Edge: 38 - 45 Weight: 7 - Rejected
+Edge: 28 - 29 Weight: 7 - Rejected
+Edge: 36 - 50 Weight: 7 - Rejected
+Edge: 11 - 13 Weight: 7 - Rejected
+Edge: 41 - 39 Weight: 7 - Accepted
+Edge: 2 - 1 Weight: 7 - Rejected
+Edge: 40 - 29 Weight: 7 - Rejected
+Edge: 33 - 6 Weight: 7 - Rejected
+Edge: 0 - 1 Weight: 7 - Rejected
+Edge: 1 - 5 Weight: 7 - Rejected
+Edge: 1 - 5 Weight: 7 - Rejected
+Edge: 2 - 1 Weight: 7 - Rejected
+Edge: 17 - 30 Weight: 7 - Rejected
+Edge: 2 - 1 Weight: 7 - Rejected
+Edge: 21 - 24 Weight: 6 - Rejected
+Edge: 22 - 24 Weight: 6 - Rejected
+Edge: 1 - 26 Weight: 6 - Rejected
+Edge: 3 - 0 Weight: 6 - Rejected
+Edge: 4 - 1 Weight: 6 - Rejected
+Edge: 14 - 19 Weight: 6 - Rejected
+Edge: 3 - 0 Weight: 6 - Rejected
+Edge: 1 - 4 Weight: 6 - Rejected
+Edge: 4 - 2 Weight: 6 - Rejected
+Edge: 6 - 19 Weight: 6 - Rejected
+Edge: 21 - 14 Weight: 6 - Rejected
+Edge: 37 - 0 Weight: 6 - Accepted
+Edge: 24 - 50 Weight: 6 - Rejected
+Edge: 10 - 24 Weight: 6 - Rejected
+Edge: 9 - 16 Weight: 6 - Rejected
+Edge: 4 - 2 Weight: 6 - Rejected
+Edge: 3 - 0 Weight: 6 - Rejected
+Edge: 46 - 50 Weight: 6 - Accepted
+Edge: 1 - 4 Weight: 6 - Rejected
+Edge: 18 - 14 Weight: 6 - Rejected
+Edge: 4 - 2 Weight: 6 - Rejected
+Edge: 38 - 32 Weight: 6 - Accepted
+Edge: 6 - 2 Weight: 6 - Rejected
+Edge: 1 - 4 Weight: 6 - Rejected
+Edge: 6 - 1 Weight: 6 - Rejected
+Edge: 21 - 28 Weight: 6 - Rejected
+Edge: 13 - 49 Weight: 6 - Rejected
+Edge: 5 - 48 Weight: 6 - Rejected
+Edge: 23 - 23 Weight: 6 - Rejected
+Edge: 4 - 13 Weight: 6 - Rejected
+Edge: 2 - 50 Weight: 6 - Rejected
+Edge: 15 - 28 Weight: 6 - Rejected
+Edge: 7 - 11 Weight: 6 - Rejected
+Edge: 6 - 1 Weight: 6 - Rejected
+Edge: 12 - 29 Weight: 5 - Rejected
+Edge: 25 - 19 Weight: 5 - Rejected
+Edge: 9 - 20 Weight: 5 - Rejected
+Edge: 11 - 15 Weight: 5 - Rejected
+Edge: 0 - 9 Weight: 5 - Rejected
+Edge: 0 - 9 Weight: 5 - Rejected
+Edge: 2 - 3 Weight: 5 - Rejected
+Edge: 1 - 0 Weight: 5 - Rejected
+Edge: 0 - 9 Weight: 5 - Rejected
+Edge: 2 - 3 Weight: 5 - Rejected
+Edge: 2 - 3 Weight: 5 - Rejected
+Edge: 2 - 6 Weight: 5 - Rejected
+Edge: 1 - 0 Weight: 5 - Rejected
+Edge: 2 - 6 Weight: 5 - Rejected
+Edge: 16 - 4 Weight: 5 - Rejected
+Edge: 42 - 26 Weight: 5 - Rejected
+Edge: 29 - 12 Weight: 5 - Rejected
+Edge: 47 - 35 Weight: 5 - Rejected
+Edge: 14 - 50 Weight: 5 - Rejected
+Edge: 22 - 8 Weight: 5 - Rejected
+Edge: 29 - 14 Weight: 5 - Rejected
+Edge: 42 - 50 Weight: 5 - Accepted
+Edge: 7 - 17 Weight: 5 - Rejected
+Edge: 5 - 49 Weight: 5 - Rejected
+Edge: 2 - 8 Weight: 5 - Rejected
+Edge: 13 - 10 Weight: 5 - Rejected
+Edge: 17 - 2 Weight: 5 - Rejected
+Edge: 1 - 0 Weight: 5 - Rejected
+Edge: 13 - 36 Weight: 5 - Rejected
+Edge: 2 - 6 Weight: 5 - Rejected
+Edge: 16 - 17 Weight: 4 - Rejected
+Edge: 4 - 1 Weight: 4 - Rejected
+Edge: 4 - 8 Weight: 4 - Rejected
+Edge: 3 - 2 Weight: 4 - Rejected
+Edge: 30 - 44 Weight: 4 - Rejected
+Edge: 29 - 14 Weight: 4 - Rejected
+Edge: 1 - 3 Weight: 4 - Rejected
+Edge: 48 - 17 Weight: 4 - Rejected
+Edge: 4 - 1 Weight: 4 - Rejected
+Edge: 19 - 27 Weight: 4 - Rejected
+Edge: 35 - 3 Weight: 4 - Accepted
+Edge: 4 - 8 Weight: 4 - Rejected
+Edge: 8 - 50 Weight: 4 - Rejected
+Edge: 22 - 50 Weight: 4 - Rejected
+Edge: 30 - 50 Weight: 4 - Accepted
+Edge: 1 - 3 Weight: 4 - Rejected
+Edge: 48 - 50 Weight: 4 - Accepted
+Edge: 3 - 2 Weight: 4 - Rejected
+Edge: 4 - 8 Weight: 4 - Rejected
+Edge: 17 - 49 Weight: 4 - Rejected
+Edge: 4 - 1 Weight: 4 - Rejected
+Edge: 3 - 12 Weight: 4 - Rejected
+Edge: 1 - 27 Weight: 4 - Rejected
+Edge: 28 - 12 Weight: 4 - Rejected
+Edge: 23 - 10 Weight: 4 - Rejected
+Edge: 4 - 22 Weight: 4 - Rejected
+Edge: 9 - 0 Weight: 4 - Rejected
+Edge: 10 - 18 Weight: 4 - Rejected
+Edge: 28 - 15 Weight: 4 - Rejected
+Edge: 5 - 9 Weight: 4 - Rejected
+Edge: 11 - 21 Weight: 4 - Rejected
+Edge: 11 - 11 Weight: 4 - Rejected
+Edge: 19 - 1 Weight: 4 - Rejected
+Edge: 4 - 4 Weight: 3 - Rejected
+Edge: 17 - 27 Weight: 3 - Rejected
+Edge: 15 - 33 Weight: 3 - Accepted
+Edge: 19 - 12 Weight: 3 - Rejected
+Edge: 7 - 45 Weight: 3 - Rejected
+Edge: 0 - 2 Weight: 3 - Rejected
+Edge: 0 - 2 Weight: 3 - Rejected
+Edge: 5 - 0 Weight: 3 - Rejected
+Edge: 39 - 47 Weight: 3 - Accepted
+Edge: 7 - 49 Weight: 3 - Rejected
+Edge: 2 - 4 Weight: 3 - Rejected
+Edge: 22 - 16 Weight: 3 - Rejected
+Edge: 23 - 25 Weight: 3 - Rejected
+Edge: 0 - 28 Weight: 3 - Rejected
+Edge: 5 - 0 Weight: 3 - Rejected
+Edge: 18 - 50 Weight: 3 - Rejected
+Edge: 34 - 50 Weight: 3 - Accepted
+Edge: 4 - 4 Weight: 3 - Rejected
+Edge: 0 - 50 Weight: 3 - Rejected
+Edge: 5 - 22 Weight: 3 - Accepted
+Edge: 2 - 4 Weight: 3 - Rejected
+Edge: 5 - 14 Weight: 3 - Rejected
+Edge: 34 - 38 Weight: 3 - Accepted
+Edge: 21 - 26 Weight: 3 - Accepted
+Edge: 9 - 13 Weight: 3 - Accepted
+Edge: 2 - 4 Weight: 3 - Rejected
+Edge: 20 - 11 Weight: 3 - Rejected
+Edge: 0 - 2 Weight: 3 - Rejected
+Edge: 24 - 21 Weight: 3 - Accepted
+Edge: 5 - 0 Weight: 3 - Rejected
+Edge: 4 - 5 Weight: 3 - Rejected
+Edge: 3 - 7 Weight: 2 - Rejected
+Edge: 15 - 7 Weight: 2 - Rejected
+Edge: 8 - 14 Weight: 2 - Rejected
+Edge: 3 - 1 Weight: 2 - Rejected
+Edge: 8 - 29 Weight: 2 - Accepted
+Edge: 0 - 3 Weight: 2 - Rejected
+Edge: 1 - 10 Weight: 2 - Rejected
+Edge: 3 - 1 Weight: 2 - Rejected
+Edge: 18 - 25 Weight: 2 - Rejected
+Edge: 15 - 5 Weight: 2 - Rejected
+Edge: 40 - 50 Weight: 2 - Accepted
+Edge: 0 - 4 Weight: 2 - Rejected
+Edge: 12 - 50 Weight: 2 - Rejected
+Edge: 18 - 5 Weight: 2 - Accepted
+Edge: 44 - 23 Weight: 2 - Accepted
+Edge: 0 - 4 Weight: 2 - Rejected
+Edge: 20 - 27 Weight: 2 - Accepted
+Edge: 45 - 38 Weight: 2 - Accepted
+Edge: 26 - 2 Weight: 2 - Accepted
+Edge: 11 - 49 Weight: 2 - Accepted
+Edge: 23 - 21 Weight: 2 - Accepted
+Edge: 8 - 16 Weight: 2 - Rejected
+Edge: 3 - 1 Weight: 2 - Accepted
+Edge: 0 - 4 Weight: 2 - Accepted
+Edge: 3 - 7 Weight: 2 - Rejected
+Edge: 3 - 7 Weight: 2 - Accepted
+Edge: 15 - 8 Weight: 2 - Accepted
+Edge: 7 - 19 Weight: 1 - Accepted
+Edge: 15 - 49 Weight: 1 - Accepted
+Edge: 27 - 15 Weight: 1 - Accepted
+Edge: 44 - 50 Weight: 1 - Accepted
+Edge: 4 - 3 Weight: 1 - Rejected
+Edge: 7 - 16 Weight: 1 - Accepted
+Edge: 25 - 20 Weight: 1 - Accepted
+Edge: 8 - 3 Weight: 1 - Rejected
+Edge: 12 - 23 Weight: 1 - Accepted
+Edge: 4 - 3 Weight: 1 - Rejected
+Edge: 5 - 20 Weight: 1 - Accepted
+Edge: 16 - 10 Weight: 1 - Accepted
+Edge: 2 - 0 Weight: 1 - Rejected
+Edge: 36 - 35 Weight: 1 - Accepted
+Edge: 31 - 9 Weight: 1 - Accepted
+Edge: 14 - 7 Weight: 1 - Accepted
+Edge: 8 - 3 Weight: 1 - Rejected
+Edge: 13 - 22 Weight: 1 - Accepted
+Edge: 6 - 50 Weight: 1 - Accepted
+Edge: 4 - 3 Weight: 1 - Accepted
+Edge: 2 - 0 Weight: 1 - Rejected
+Edge: 0 - 2 Weight: 1 - Accepted
+Edge: 28 - 50 Weight: 1 - Accepted
+Edge: 27 - 17 Weight: 1 - Accepted
+Edge: 8 - 3 Weight: 1 - Accepted
+Edge: 11 - 39 Weight: 1 - Accepted
